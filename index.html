@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Hut - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <a href="#">Burger Hut</a>
+            <img src="bur.jpeg">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="order-btn">Order Now</a>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Delicious <span>Burgers</span> Made Fresh!</h1>
+            <p>Experience the juiciest, most flavorful burgers crafted with love and the freshest ingredients.</p>
+            <a href="#" class="hero-btn">Order Now</a>
+        </div>
+        <div class="hero-image">
+            <img src="burger2.jpeg" alt="Tasty Burger">
+        </div>
+    </section>
+    <section class="interactive-section">
+        <h2>Explore Our <span>Delicious Burgers</span></h2>
+        
+        <!-- Category Tabs -->
+        <div class="category-tabs">
+            <button class="tab-btn active" data-category="all">All</button>
+            <button class="tab-btn" data-category="beef">Beef Burgers</button>
+            <button class="tab-btn" data-category="chicken">Chicken Burgers</button>
+            <button class="tab-btn" data-category="veggie">Veggie Burgers</button>
+        </div>
+
+        <!-- Burger Menu Grid -->
+        <div class="burger-menu">
+            <div class="burger-item beef">
+                <img src="burger1.jpeg" alt="Beef Burger">
+                <h3>Classic Beef Burger</h3>
+                <p>Juicy grilled beef with fresh toppings.</p>
+            </div>
+
+            <div class="burger-item chicken">
+                <img src="burger6.jpeg" alt="Chicken Burger">
+                <h3>Spicy Chicken Burger</h3>
+                <p>Perfectly crispy with a spicy kick!</p>
+            </div>
+
+            <div class="burger-item veggie">
+                <img src="bur.jpeg" alt="Veggie Burger">
+                <h3>Healthy Veggie Burger</h3>
+                <p>Loaded with fresh veggies and flavor.</p>
+            </div>
+
+            <div class="burger-item beef">
+                <img src="burger5.jpeg" alt="Double Beef Burger">
+                <h3>Double Beef Burger</h3>
+                <p>Extra juicy, double the flavor!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="order-section">
+        <h2>How to <span>Order</span></h2>
+        <div class="order-steps">
+            <div class="step">
+                <img src="menu2.png" alt="Menu Icon">
+                <h3>Browse Menu</h3>
+                <p>Pick your favorite burger from our delicious menu.</p>
+            </div>
+            <div class="step">
+                <img src="order.jpg" alt="Order Icon">
+                <h3>Place Order</h3>
+                <p>Customize your order and proceed to checkout.</p>
+            </div>
+            <div class="step">
+                <img src="delivery.png" alt="Delivery Icon">
+                <h3>Fast Delivery</h3>
+                <p>Enjoy quick and fresh delivery right at your doorstep!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Review Section -->
+    <section class="review-section">
+        <h2>What Our <span>Customers Say</span></h2>
+        <div class="review-container">
+            <div class="review active">
+                <p>"The best burgers in town! Juicy, fresh, and full of flavor. Highly recommend!"</p>
+                <h4>- Alex Johnson</h4>
+            </div>
+            <div class="review">
+                <p>"Fast delivery and delicious burgers. The spicy chicken burger is my favorite!"</p>
+                <h4>- Sarah Williams</h4>
+            </div>
+            <div class="review">
+                <p>"Great taste, friendly staff, and an amazing experience. Will order again!"</p>
+                <h4>- Mike Anderson</h4>
+            </div>
+        </div>
+        <button class="prev-btn">⬅</button>
+        <button class="next-btn">➡</button>
+    </section>
+
+     <!-- Unique Selling Points (USP) Section -->
+     <section class="usp-section">
+        <h2>Why <span>Choose Us?</span></h2>
+        <div class="usp-container">
+            <div class="usp-box">
+                <img src="fresh.jpg" alt="Fresh Ingredients">
+                <h3>Fresh Ingredients</h3>
+                <p>We use only high-quality, fresh ingredients for our burgers.</p>
+            </div>
+            <div class="usp-box">
+                <img src="fast.png" alt="Fast Delivery">
+                <h3>Fast Delivery</h3>
+                <p>Hot and delicious burgers delivered within minutes.</p>
+            </div>
+            <div class="usp-box">
+                <img src="taste.png" alt="Best Taste">
+                <h3>Unmatched Taste</h3>
+                <p>Experience the best flavors crafted by expert chefs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offers Section -->
+    <section class="offers-section">
+        <h2>Today's <span>Special Offers</span></h2>
+        <div class="offers-container">
+            <div class="offer">
+                <h3>Buy 1 Get 1 Free</h3>
+                <p>On all cheeseburgers this weekend!</p>
+            </div>
+            <div class="offer">
+                <h3>20% Off</h3>
+                <p>On your first online order.</p>
+            </div>
+            <div class="offer">
+                <h3>Free Delivery</h3>
+                <p>On orders above $25.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Contact Section -->
+    <section class="contact-section">
+        <h2>Visit Us or <span>Get in Touch</span></h2>
+        <div class="contact-container">
+            <div class="location">
+                <h3>Our Location</h3>
+                <p>123 Burger Street, Food City, USA</p>
+                <iframe src="https://www.google.com/maps/embed?..." width="100%" height="200"></iframe>
+            </div>
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p>Email: support@burgerhut.com</p>
+                <p>Phone: +1 234 567 890</p>
+                <div class="social-icons">
+                    <a href="#"><img src="fb.avif" alt="Facebook"></a>
+                    <a href="#"><img src="insta.jpg" alt="Instagram"></a>
+                    <a href="#"><img src="twitter.png" alt="Twitter"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Burger Hut. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">FAQs</a>
+        </div>
+    </footer>
+
+    <!-- Cart Icon -->
+    <div id="cart-icon">
+        🛒 View Cart                                                            
+    </div>
+
+    <!-- Cart Modal -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span id="close-cart">&times;</span>
+            <h2>Your Cart</h2>
+            <ul id="cart-items"></ul>
+            <h3 id="total-price">Total: $0.00</h3>
+            <button id="checkout-btn">Checkout</button>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
